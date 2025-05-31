@@ -1,0 +1,2 @@
+# scu_student_email_scraper
+自动获取您的四川大学学生邮箱的脚本
