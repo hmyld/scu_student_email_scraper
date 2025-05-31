@@ -10,7 +10,7 @@ def open_page():
     random_ua = random.choice(user_agents)
     with sync_playwright() as p:
         browser = p.chromium.launch(
-            headless=False,
+            headless=True,
             args=[
                 "--disable-blink-features=AutomationControlled",
                 f"--user-agent={random_ua}"
